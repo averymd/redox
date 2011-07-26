@@ -1,0 +1,2 @@
+<h1>Welcome to Redox!</h1>
+<p>This guide is designed to show you all the things you need to know to program with the Redox framework. As you will soon learn, Redox was built on the methodologies of simplicity, elegance and power. These characteristics will show as we go on to explain how Redox works and how you will interact with it.</p>

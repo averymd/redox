@@ -1,0 +1,114 @@
+/* Reset browser styles: get to a known state. */
+html, body, h1, h2, h3, h4, h5, h6, table, tr, th, td, form, fieldset, select, input, textarea, dl, dt, dd, ul, ol, li, address, blockquote, pre, code { margin: 0; padding: 0; }
+body { font: normal 62.5% Verdana, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+
+a { outline: none; }
+img { border: none; }
+
+p { margin: 1em 0; }
+* html p { margin: .83333em 0; }
+
+/* Doc flow. */
+.block { display: block !important; }
+.inline { display: inline !important; }
+.left { float: left !important; display: inline !important; }
+.right { float: right !important; display: inline !important; }
+.clear { clear: both !important; }
+
+/* Margins. */
+.collapse { margin: 0 !important; }
+.first { margin-left: 0 !important; }
+.last { margin-right: 0 !important; }
+.top { margin-top: 0 !important; }
+.bottom { margin-bottom: 0 !important; }
+
+/* Site specific styles. */
+body { color: #CCC; background-color: #000; }
+
+.outerwrapper { margin: 30px auto 0; width: 850px; }
+	* html .outerwrapper { position: absolute; left: 50%; margin-left: 400px; }
+
+.links { float: left; display: inline; width: 160px; padding: 10px; border: 1px solid #FFF; background: #666; list-style: none; list-style-position: outside; min-height:50px;}
+.links li + li { margin-top: 3px; }
+.links a { display: block; background: #333; color: #CCC; text-decoration: none; text-transform: uppercase; padding: 5px 8px; }
+.links a.special {background:#222;}
+.links a:hover, .links a.focused, .go a.focused { background: #000; }
+
+.content { float: left; display: inline; width: 626px; padding: 10px; border: 1px solid #FFF; background: #666; margin-left: 20px; overflow:auto;}
+
+.go {float:left; display:inline; width:636px; margin-left:20px; margin-bottom:5px; padding:5px; border: 1px solid #FFF; background: #666;}
+	.go ul {float:left; display:inline; list-style:none;}
+	.go ul li {float:right; display:inline; margin-left:5px;}
+	.go a { display: block; background: #333; color: #CCC; text-decoration: none; text-transform: uppercase; padding: 5px 8px; }
+	.go a:hover, .links a.focused { background: #000; }
+	
+
+dl, dt, dd { display: inline; }
+	dt { color: #999; text-transform: uppercase; width:100%; float:left; display:inline; margin-bottom:2px; }
+	dd {float:left; display:inline; margin-bottom:10px;}
+
+input { font-family: Verdana, sans-serif; }
+a.button { background: #333; color: #CCC; border: 1px solid #999; font-size: 100%; text-decoration: none; padding: .1em .3em; }
+	a.button:hover { background: #000; }
+input.button { background: #333; color: #CCC; border: 1px solid #999; font-size: 100%; cursor:pointer;}
+	input.button:hover { background: #000; }
+input.text { background: #FFF; color: #333; border: 1px solid #999; font-size: 100%; padding: .1em .3em; }
+select { border: 1px solid #999; font-size: 100%; }
+
+h1 { color: #000; font-weight: bold; text-transform: uppercase; font-size: 170%; line-height: 100%; margin-bottom: 1em; }
+h2 { color: #333; font-weight: bold; margin: 1em 0; }
+
+.section > *:first-child { margin-top: 0; }
+
+
+.results { margin: 1em 0; }
+.results p.success { color: #004700; }
+.results p.error { color: #6B0000; }
+.results ul { list-style: none; list-style-position: outside; width:500px;}
+.results ul li { list-style: none; list-style-position: outside; padding-left: 20px;}
+	li.success { background: transparent url("../_images/green_bullet.gif") 6px center no-repeat; color: #004700; }
+	li.error { background: transparent url("../_images/red_bullet.gif") 6px center no-repeat; color: #6B0000; }
+	
+.content ul {float:left; display:inline; margin-left:25px; width:100%; margin-bottom:5px; list-style:none;}
+	.content ul li {margin-bottom:3px; }
+	
+pre { border:1px solid black; background:#444; margin:5px 10px; padding:5px; font:normal 100% Verdana, serif;}
+
+.itemlist thead { text-align: left; }
+.itemlist tr > * { padding-left: 1em; }
+.itemlist tr > *:first-child { padding-left: 0; }
+
+.edit .h1wrap { margin: 2em; border: 1px solid #FFF; background: #666; text-align: center; }
+.edit h1 { margin: 0; line-height: 200%; }
+.edit form { margin: 2em; }
+.edit form textarea { width: 100%; border: 0; height: 400px; margin-bottom: 1em; }
+
+			.users a.add {float:right; display:inline; padding:5px 10px; background-color:#222222; color:#CCCCCC; font: normal 100% Verdana, serif; margin-bottom:10px;}
+			.users a.add:hover {background:#333;}
+			.users ul { display:inline; float:left; font-family:Verdana,serif; font-size:110%; font-size-adjust:none; font-stretch:normal; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal; list-style-image:none; list-style-position:outside; list-style-type:none; }
+			.users ul li { display:inline; float:left; margin-bottom:2px; width:380px;}
+			.users ul li h2 { background-color:#444477; color:#CCCCCC; display:inline; float:left; padding:5px 10px; width:100%; }
+			.users ul li a { display:inline; float:left; padding:5px 10px; width:100%;  background-color:#222222; color:#CCCCCC;}
+			.users ul li a:hover { background-color:#333333; padding:5px 10px; }
+
+			.content .adduser dl {float:left; display:inline; list-style:none; width:100%;}
+			.content .adduser dt {float:left; display:inline; width:80px;}
+			.content .adduser dd {float:left; display:inline; width:320px;}
+
+			textarea {height:auto; width:auto;}
+
+			pre { font: normal 100% Verdana, sans-serif; color: #999; }
+
+			table.privs th, table.privs td { text-align: center; border: 1px solid #333; vertical-align: middle; padding: 0 1em; height: 27px; }
+			table.privs tbody tr:hover td { background:#333; }
+			table.privs tbody th { font-weight: normal; text-align: left; }
+			table.privs tfoot td { padding: 0 .5em; }
+
+			table.addprivs { border:1px solid #333; vertical-align: middle; height: 27px; font-weight: normal; }
+
+			.privskey th, .privskey td { border: 1px solid #333; background: #555; text-align: center; vertical-align: middle; height: 27px; padding: 0 5px;}
+
+.scaffold {float:left; display:inline; width:100%; }
+.scaffold input {width: 270px;}
+.scaffold textarea {width:500px; height:100px;}

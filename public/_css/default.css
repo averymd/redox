@@ -1,0 +1,64 @@
+#banner {
+	background: #FFFFFF url(/public/_images/banner.png) repeat-x scroll 0 0;
+	height:100px;
+	text-align:left;
+	width:100%;
+}
+
+#navigation {
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+
+#main {
+	margin: 0 0 0 210px;
+	border-left: 5px solid #CFE1F4;
+	padding: 0 0 0 20px;
+}
+
+/* Forms */
+fieldset {
+  margin: 1.5em 0 0 0;
+  padding: 0;
+}
+
+legend {
+  margin-left: 1em;
+  color: #000;
+  font-weight: bold;
+}
+
+fieldset p {
+  padding: 0 0 0 1em;
+}
+
+fieldset ol {
+  padding: 1em 1em 0 1em;
+  list-style: none;
+}
+
+fieldset li {
+  padding-bottom: 1em;
+  clear: left;
+}
+
+fieldset.submit {
+  border-style: none;
+}
+
+label {  
+  float: left;  
+  width: 10em;  
+  margin-right: 1em;  
+  text-align: right;
+}
+
+label strong {  
+  display: block;  
+  color: #C00;  
+  font-size: 85%;  
+  font-weight: normal;  
+  text-transform: uppercase; 
+  padding-bottom: 1em;
+}

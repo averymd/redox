@@ -1,0 +1,76 @@
+GENERATOR
+// General
+- Write introduction.
+- Convert form handling to match redox best practices.
+- Turn edit into a full-functioned web-based code editor.
+
+// Controllers
+- Prevent the delete of ajax and external controllers.
+- Add confirm step on all deletes.
+
+// Models
+- Add confirm step on all deletes.
+
+// Modules
+- Allow installation and uninstallation of modules.
+- Add confirm step on all uninstalls.
+
+// Privileges
+- Turn "Add Privilege Tables" to "Reset / Remove Privilege Tables" if they already exist.
+- Allow edit and delete of roles.
+- Allow edit and delete of privileges.
+- Prevent duplicately named roles.
+- Prevent duplicately named privileges.
+- Fix display of privilege table.
+
+// Schema
+- Turn "Create Tables in Database" to "Reset / Remove Tables" if they already exist.
+- Don't show option to create form fields from table if there are no editable fields in available tables.
+- Create schema from existing database.
+- Allow schema to create a multiple database environment.
+
+
+GUIDE
+- Write out sections.
+- Create a function reference.
+
+REDOX
+- Create and determine form handling best practices.
+- Finish writing the XHTML class(es) and object-based XHTML element creation.
+- Finish writing the treat and confirm static classes.
+- Integrate uploading into form handling.
+- Remove spurious response variables.
+- Redo $validator::rule();
+
+- Comment/Document
+- Installation script.
+- Allow for pass-through of benchmarks on redirect handling.
+- Add scaffolding.
+- Add query helper.
+- Modify database, schema and /config/db.php to allow for a multiple database environment.
+- Allow for toggling between database handling and file-system handling for uploads.
+- Allow for toggling between database handling and file-system handling for sessions.
+- Test on PHP4 and PHP5, Windows and Linux.
+- Add convergence privilege system.
+- Integration with some caching systems.
+
+JAVASCRIPT
+- JSSM
+- XML/HTML auto-toggling of response
+- Helper functions.
+
+LIBRARY (and adapters)
+- PDF class.
+- Email class.
+- File-system static class (abstraction for Windows vs. Unix).
+- Server-side HTTP request handling class.
+
+MODULES
+- Installation script
+- Login
+- User Management
+- Blog
+- Pages
+- Forum
+- News
+- Events/Calendar
