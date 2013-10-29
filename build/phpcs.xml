@@ -10,14 +10,6 @@
  -->
  <description>A custom coding standard</description>
 
- <!--
-    You can hard-code ignore patterns directly into your
-    custom standard so you don't have to specify the
-    patterns on the command line.
-    
-    The following two tags are equivalent to the command line
-    argument: --ignore=*/tests/*,*/data/*
- -->
  <exclude-pattern>*/tests/*</exclude-pattern>
  <exclude-pattern>*/data/*</exclude-pattern>
 
