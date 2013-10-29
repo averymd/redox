@@ -20,7 +20,7 @@ class idobfuscator {
     $dec = ($dec > $id) ? $dec - $id : $dec + $id;
     
     $segment2 = base_conver($dec, 10, 16);
-    $segment2 = str_pad($segment2, 8 '0', STR_PAD_LEFT);
+    $segment2 = str_pad($segment2, 8, '0', STR_PAD_LEFT);
     
     $segment3 = self::getHash($segment1 . $segment2, 8);
     $hex = $segment1 . $segment2 . $segment3;
