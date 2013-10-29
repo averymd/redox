@@ -6,13 +6,13 @@
  *	@doxygen stuff
  */
 
-if () {
-	// Action
-} else if () {
-	// Action
-} else {
-	// Action
-}
+// if () {
+// 	// Action
+// } else if () {
+// 	// Action
+// } else {
+// 	// Action
+// }
 
 class name {
 	var $asdf;
